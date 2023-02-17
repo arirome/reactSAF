@@ -1,0 +1,46 @@
+.container-table-report {
+    width: auto;
+    height: 100vh;
+    padding: 30px;
+
+    .titulo-y-boton {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .containerCharts {
+        display: flex;
+        flex-direction: row;
+        margin-top: 3%;
+       
+    }
+}
+
+.datatableTitle {
+    width: fit-content;
+    font-size: 2rem;
+    color: #003667;
+    font-weight: bold;
+ 
+}
+
+.titleDataReporte {
+    font-size: 1rem;
+    color: #003667;
+    font-weight: bolder;
+}
+
+.button-reporte {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: fit-content;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-left: 2%;
+}
